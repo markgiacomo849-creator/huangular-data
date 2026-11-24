@@ -10,5 +10,6 @@ export class UserItem {
    name: string;         
   constructor() {
     this.name = 'Felipe'; 
+   
   }
 }
