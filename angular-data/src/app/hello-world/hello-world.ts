@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './hello-world.css',
   templateUrl: './hello-world.html',
 })
-export class HelloWorld {}
+export class HelloWorld {
+    saluto: string;
+  constructor() {
+    
+ this.saluto = 'Ciao 4F';
+  }
+}
